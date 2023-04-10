@@ -6,8 +6,9 @@ h1{
     font-size: 50px;
 }
 
-section{
+.flexible-container1{
     display: flex;
+    margin-bottom: 150px;
 }
 .a1{
     padding: 2%;
