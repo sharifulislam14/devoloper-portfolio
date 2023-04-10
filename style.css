@@ -1,29 +1,44 @@
-body{
+body
+{
     font-family: 'Poppins', sans-serif;
     margin:0px;
 }
-h1{
+h1
+{
     font-size: 50px;
 }
+h2
+{
+    font-size: 40px;
+}
 
-.flexible-container1{
+.flexible-container1
+{
     display: flex;
     margin-bottom: 150px;
 }
-.a1{
+.half-width
+{
+    display: 50%;
     padding: 2%;
+    padding-left: ;
 }
-.a2{
+.a2
+{
     width: 70%;
     padding: 2%;
 }
-.a2 img{
+.a2 img
+{
     width: 500px;
 }
-.a3{
+.orange-color
+{
     color: orange;
+    width: ;
 }
-.HIRE{
+.HIRE
+{
     text-decoration: none;
     background-image: linear-gradient(orange,red);
     padding: 2px 5px;
@@ -31,14 +46,43 @@ h1{
     color: white;
     font: 700;
 }
-.top-banar{
+.top-banar
+{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.a2n{
+.a2n
+{
    
     padding: 2%;
 }
-.pic2{
+.pic2
+{
     width: 500px;
+}
+.esxperience-item
+{
+  
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray; 
+    
+}
+.experience-area
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Baby-Web{
+    border-left: 7px solid blue;
+}
+#full-stak{
+    border-left: 7px solid tomato;
+}
+footer p{
+    text-align: center;
 }
