@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0px;
 }
 h1{
     font-size: 50px;
@@ -12,11 +13,11 @@ section{
     padding: 2%;
 }
 .a2{
-    width: 50%;
+    width: 70%;
     padding: 2%;
 }
 .a2 img{
-    width: 600px;
+    width: 500px;
 }
 .a3{
     color: orange;
@@ -28,4 +29,15 @@ section{
     border-radius: 5px;
     color: white;
     font: 700;
+}
+.top-banar{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.a2n{
+   
+    padding: 2%;
+}
+.pic2{
+    width: 500px;
 }
